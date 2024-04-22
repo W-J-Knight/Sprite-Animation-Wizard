@@ -49,52 +49,52 @@ window.addEventListener("load", function () {
   // move list~
   const moveList = {
     idle: {
-      src: "../assets/wizard/Idle.png",
+      src: "./assets/wizard/Idle.png",
       maxFrames: 6,
       movesStaggerFrames: 8,
     },
     idle2: {
-      src: "../assets/wizard/Idle_2.png",
+      src: "./assets/wizard/Idle_2.png",
       maxFrames: 5,
       movesStaggerFrames: 8,
     },
     walk: {
-      src: "../assets/wizard/Walk.png",
+      src: "./assets/wizard/Walk.png",
       maxFrames: 7,
       movesStaggerFrames: 12,
     },
     run: {
-      src: "../assets/wizard/Run.png",
+      src: "./assets/wizard/Run.png",
       maxFrames: 8,
       movesStaggerFrames: 4,
     },
     jump: {
-      src: "../assets/wizard/Jump.png",
+      src: "./assets/wizard/Jump.png",
       maxFrames: 11,
       movesStaggerFrames: 5,
     },
     attack1: {
-      src: "../assets/wizard/Attack_1.png",
+      src: "./assets/wizard/Attack_1.png",
       maxFrames: 10,
       movesStaggerFrames: 5,
     },
     attack2: {
-      src: "../assets/wizard/Attack_2.png",
+      src: "./assets/wizard/Attack_2.png",
       maxFrames: 4,
       movesStaggerFrames: 5,
     },
     attack3: {
-      src: "../assets/wizard/Attack_3.png",
+      src: "./assets/wizard/Attack_3.png",
       maxFrames: 7,
       movesStaggerFrames: 5,
     },
     hurt: {
-      src: "../assets/wizard/Hurt.png",
+      src: "./assets/wizard/Hurt.png",
       maxFrames: 4,
       movesStaggerFrames: 5,
     },
     dying: {
-      src: "../assets/wizard/Dead.png",
+      src: "./assets/wizard/Dead.png",
       maxFrames: 4,
       movesStaggerFrames: 18,
     },
